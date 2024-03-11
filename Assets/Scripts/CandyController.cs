@@ -34,8 +34,8 @@ public class CandyController : MonoBehaviour
         {
             candyCollider.enabled = false;
             candyRenderer.enabled = false;
-            yield return new WaitForSeconds(3);
-            SceneManager.LoadScene(5);
+            yield return new WaitForSeconds(4);
+            SceneManager.LoadScene(6);
         }
 
         if (collision.gameObject.name == "ground" || collision.gameObject.name == "ground2")
